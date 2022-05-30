@@ -1,10 +1,11 @@
-.App {
+body {
   text-align: center;
+  background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
 }
 
-h1 {
+header {
   text-align: center;
-  margin: 50px 0;
+  margin: 50px 0px;
 }
 
 footer {

@@ -1,14 +1,13 @@
 Form {
-  margin: 30px;
+  padding: 10px;
 }
 
-.dictionary {
-  margin: 50px 0;
+input {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 100px;
 }
 
-.search {
-  margin: 20px 0;
-}
-.search-button {
-  margin: 20px 0;
+Button {
+  margin-left: 20px;
 }
