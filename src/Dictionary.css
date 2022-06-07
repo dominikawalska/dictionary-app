@@ -1,13 +1,19 @@
 Form {
-  padding: 10px;
+  padding: 50px;
 }
-
+Row {
+  text-align: center;
+}
 input {
-  border: 1px solid grey;
+  width: 100%;
+  border: 1px solid rgb(119, 122, 124);
   border-radius: 5px;
-  padding: 5px 100px;
+  padding: 8px 100px;
 }
 
-Button {
-  margin-left: 20px;
+.question {
+  font-size: 24px;
+  font-weight: bold;
+  /* color: rgb(119, 122, 124); */
+  margin-bottom: 15px;
 }

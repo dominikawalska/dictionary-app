@@ -1,0 +1,22 @@
+.meaning section {
+  background: white;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.meaning .example {
+  font-size: 15px;
+  font-style: italic;
+  color: rgb(119, 122, 124);
+}
+
+.meaning .text {
+  margin: 15px;
+}

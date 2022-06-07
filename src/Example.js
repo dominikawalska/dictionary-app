@@ -2,12 +2,7 @@ import React from "react";
 
 export default function Example(props) {
   if (props.example) {
-    return (
-      <em>
-        {" "}
-        <strong>Example: </strong> {props.example}
-      </em>
-    );
+    return <div>{props.example}</div>;
   } else {
     return null;
   }

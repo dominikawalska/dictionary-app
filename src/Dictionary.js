@@ -4,6 +4,8 @@ import "./Dictionary.css";
 import Results from "./Results";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
@@ -25,16 +27,29 @@ export default function Dictionary() {
     setKeyword(event.target.value);
   }
   return (
-    <div className="dictionary">
-      <Form onSubmit={search}>
-        <input
-          className="search"
-          type="search"
-          placeholder="Enter a word"
-          onChange={updateKeyword}
-        ></input>
-        <Button type="Submit">Submit</Button>
-      </Form>
+    <div>
+      <section>
+        <Form onSubmit={search}>
+          <div className="question">What word are you looking for?</div>
+          <Row>
+            <Col sm={9}>
+              <input
+                className="search"
+                type="search"
+                placeholder="Enter a word"
+                onChange={updateKeyword}
+              ></input>
+            </Col>{" "}
+            <Col sm={3}>
+              <div className="search-button">
+                <Button type="Submit" variant="secondary" className="py-2 px-5">
+                  Submit
+                </Button>
+              </div>
+            </Col>
+          </Row>
+        </Form>
+      </section>
       <Results results={results} />
     </div>
   );
