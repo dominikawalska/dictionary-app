@@ -3,12 +3,12 @@
 }
 
 .phonetics a {
-  border: 1px solid black;
+  border: 1px solid #383838;
   background-color: white;
   text-decoration: none;
   border-radius: 20px;
   padding: 8px 15px;
-  color: black;
+  color: #383838;
   transition: all 150ms ease-in-out;
   font-size: 12px;
   font-weight: bold;
@@ -16,9 +16,9 @@
 }
 
 .phonetics a:hover {
-  background: rgb(119, 122, 124);
+  background: rgb(35, 74, 74);
   color: white;
-  border: 1px solid rgb(119, 122, 124);
+  border: 1px solid rgb(35, 74, 74);
 }
 
 .phonetics .text {

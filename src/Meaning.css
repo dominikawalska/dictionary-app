@@ -2,6 +2,7 @@
   font-size: 24px;
   line-height: 1.5;
   font-weight: bold;
+  color: #383838;
 }
 
 .meaning .example {
@@ -12,4 +13,5 @@
 
 .meaning .text {
   margin: 15px;
+  color: #383838;
 }

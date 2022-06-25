@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #cdbe78, #383838, #066163, #383838);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -8,7 +8,7 @@ body {
 header {
   text-align: center;
   margin: 0px 0px;
-  padding: 30px 100px;
+  padding: 0px 0px;
   color: white;
 }
 

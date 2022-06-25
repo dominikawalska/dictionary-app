@@ -50,11 +50,12 @@ export default function Dictionary() {
                 type="search"
                 placeholder="Enter a word"
                 onChange={updateKeyword}
+                size="lg"
               ></input>
             </Col>{" "}
             <Col sm={3}>
               <div className="search-button">
-                <Button type="Submit" variant="secondary" className="py-2 px-5">
+                <Button type="submit" className="button py-2 px-5">
                   Submit
                 </Button>
               </div>
