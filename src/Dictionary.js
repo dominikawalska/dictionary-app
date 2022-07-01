@@ -55,7 +55,7 @@ export default function Dictionary() {
             </Col>{" "}
             <Col sm={3}>
               <div className="search-button">
-                <Button type="submit" className="button py-2 px-5">
+                <Button type="submit" className="button py-2 px-5 w-100">
                   Submit
                 </Button>
               </div>

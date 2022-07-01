@@ -31,3 +31,13 @@ input {
 .button:hover {
   background-color: rgb(35, 74, 74) !important;
 }
+
+@media (max-width: 576px) {
+  .button {
+    margin-top: 10px;
+  }
+
+  .question {
+    margin-bottom: 30px;
+  }
+}
